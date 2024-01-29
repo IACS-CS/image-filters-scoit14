@@ -7,13 +7,13 @@ import { threshold } from "./threshold";
 import { Shape } from "./shape";
 import { CircleMask} from "./lens";
 const filters: Filter[] = [
-  CircleMask,
   Shape,
+  CircleMask,
   brighten,
   threshold,
-  sampleRoseColoredGlasses,
-  sampleGrid,
-  sampleVignette,
+  //sampleRoseColoredGlasses,
+  //sampleGrid,
+  //sampleVignette,
 ];
 
 export default filters;
