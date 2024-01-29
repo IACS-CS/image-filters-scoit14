@@ -43,7 +43,7 @@ const App = () => {
         <div>
           Filter: <ImageFilterChooser onInput={setFilter} />
         </div>
-        <div>
+2        <div>
           Image:
           <ImageSelector onImageSelect={setImage} currentImage={image} />
         </div>
